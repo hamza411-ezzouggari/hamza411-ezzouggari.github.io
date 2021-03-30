@@ -2167,10 +2167,12 @@
     width: 100%;
   }
   .BsPerson {
+    z-index: 3;
     width: 140px;
     height: 50px;
   }
   .BsPerson2 {
+    z-index: 3;
     width: 140px;
     height: 50px;
   }
