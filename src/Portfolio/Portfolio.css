@@ -1,0 +1,182 @@
+.Portfolio{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display:flex;
+}
+.principally{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:  row;
+}
+.background-por{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+.dark{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+.Main-Button2{
+        z-index: 2;
+        background-color: #124faad0 !important;
+        color: #fff;
+}
+.Bs-Person{
+    z-index: 4;
+}
+.title-content{
+    margin: 10rem 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin:0px 0px 0px 11rem;
+    z-index: 2;
+    height: 90%;
+    width: 83%;
+}
+.title1{
+    margin: 2rem 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family:Mr Dafoe, sans-serif;
+    font-size:2em;
+    text-align:center;
+    text-shadow: 0 -3px 0 #333,
+      0 6px 8px rgba(255, 255, 255, 0.4),
+      0 9px 10px rgba(187, 187, 187, 0.15),
+      0 30px 10px rgba(0, 0, 0, 0.18),
+      0 15px 10px rgba(136, 136, 136, 0.21);
+}
+.PORT{
+    color: #041291;
+    font-family:Mr Dafoe, sans-serif;
+}
+.isometricGrid{
+    margin: 5rem 3rem 0px 0px;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-bat{
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    align-items: center;
+    flex-direction: column-reverse;
+    height: 95%;
+    width: 100%;
+}
+.wavy {
+    margin: 0px 0px 0px 5rem;
+    position: relative;
+    -webkit-box-reflect: below -12px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+}
+.wavy span {
+    margin: 0px 10px 0px 10px;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-size: 2em;
+    text-transform: uppercase;
+    animation: animate 7s ease-in-out infinite;
+}
+.wavy .my{
+    color:  #7879FF;
+}
+@keyframes animate {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    20% {
+      transform: translateY(-30px);
+      color: #97dbfe;
+    }
+    40% {
+      transform: translateY(0px);
+    }
+}
+.git-log{
+    height: 7%;
+    width: 4%;
+    margin: 2rem 0rem 0px 0px;
+}
+.ul{
+    position: absolute;
+    transform: translate(-75%, -1%);
+    display: flex;
+    z-index: 2;
+    border: 50px;
+    }
+    .ul li{
+    list-style: none;
+    margin: 0 40px 0px 0px;
+    }
+    .ul li .fa{
+    font-size: 70px;
+    line-height: 50px;
+    transition: .5s;
+   
+    }
+    .ul li a{
+    position: relative;
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    transform: perspective(100px) rotate(-30deg) skew(25deg) translate(0,0);
+    transition: .5s;
+    box-shadow: -20px 20px 10px rgba(0, 0, 0, 0);
+    }
+    .ul li a::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    background: #b1b1b138;
+    transition: .5s;
+    transform: rotate(0deg) skewY(-45deg);
+    }
+    .ul li a::after{
+    content: "";
+    position: absolute;
+    top: 80px;
+    left: -11px;
+    height: 20px;
+    width: 100%;
+    background: #b1b1b12a;
+    transition: .5s;
+    transform: rotate(0deg) skewX(-45deg);
+    }
+    .ul li a:hover{
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+    box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
+    }
+    .ul li:hover .fa{
+    color: #fff;
+    }
+    .ul li a:hover{
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+    box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
+    }
+    .ul li:hover:nth-child(1) a{
+    background: #3b5999;
+    }
+    
+    .ul li:hover:nth-child(1) a:before{
+    background: #2e4a86;
+    }
+    .ul li:hover:nth-child(1) a:after{
+    background: #4a69ad;
+    }

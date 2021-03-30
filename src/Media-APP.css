@@ -1,0 +1,165 @@
+@media only screen and (max-width: 360px) {
+  .App {
+    position: absolute;
+    margin: 0rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .apex {
+    margin: 0rem 20rem 0px 0px;
+    position: absolute;
+    z-index: 2 !important;
+    width: 50%;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+  }
+  .te3 {
+    width: 100%;
+    text-align: center;
+  }
+  .tel4 {
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #cc7e7d;
+    text-shadow: 5px 5px #ff9e9d, 10px 10px #ffd3c8;
+  }
+  .ThreeDLoader {
+    width: 90% !important;
+  }
+}
+@media (min-device-width: 361px) and (max-device-width: 551px) {
+  .App {
+    position: absolute;
+    margin: 0rem 0px 0px 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .apex {
+    margin: 0rem 0rem 0px 0px;
+    position: absolute;
+    z-index: 2 !important;
+    width: 45%;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+  }
+  .te3 {
+    width: 80%;
+    text-align: center;
+  }
+  .tel4 {
+    margin: 0px 3rem 0px 0px;
+    font-size: 70px;
+    letter-spacing: 0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #cc7e7d;
+    text-shadow: 5px 5px #ff9e9d, 10px 10px #ffd3c8;
+  }
+  .ThreeDLoader {
+    width: 90% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-device-width: 552px) and (max-device-width: 1400px) {
+  .App {
+    position: absolute;
+    margin: 0rem 0px 0px 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .apex {
+    margin: 0rem 0rem 0px 0px;
+    position: absolute;
+    z-index: 2 !important;
+    width: 55%;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+  }
+  .te3 {
+    width: 80%;
+    text-align: center;
+  }
+  .tel4 {
+    margin: 0px 0rem 0px 10px;
+    font-size: 70px;
+    letter-spacing: 0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #cc7e7d;
+    text-shadow: 5px 5px #ff9e9d, 10px 10px #ffd3c8;
+  }
+  .ThreeDLoader {
+    width: 90% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-device-width: 1401px) and (max-device-width: 1651px) {
+  .App {
+    position: absolute;
+    margin: 0rem 0px 0px 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .apex {
+    margin: 0rem 0rem 0px 0px;
+    position: absolute;
+    z-index: 2 !important;
+    width: 100%;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+  }
+  .te3 {
+    width: 100%;
+    text-align: center;
+  }
+  .tel4 {
+    margin: 0px 0rem 0px 0px;
+    font-size: 100px;
+    letter-spacing: 0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #cc7e7d;
+    text-shadow: 5px 5px #ff9e9d, 10px 10px #ffd3c8;
+  }
+  .ThreeDLoader {
+    font-size: 70px !important;
+    width: 90% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

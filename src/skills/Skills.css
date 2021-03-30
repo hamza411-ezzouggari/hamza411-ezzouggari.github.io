@@ -1,0 +1,145 @@
+.Skills{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.background2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.im3{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+.background-initial{
+    display: flex;
+    flex-direction: column;
+    height: 165%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+.Main-Button{
+    background-color: #0d48a1d0 !important;
+    color: #fff;
+}
+.Child-Button{
+    background-color: #64b4f698 !important;
+    color: #fff;
+  }
+.Bs-Person{
+    background-color: #2195f380!important;
+    color: #fff;
+}
+.Bs-Person::before {
+    content: attr(data-tooltip);
+    width: 140px;
+    height: 50px;
+    background-color:  #0d47a1;
+    font-size: 1rem;
+    border-radius: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    left: calc(0% - 70px);
+  }
+.Bs-Person::after {
+    content: "";
+    border: 12px solid transparent;
+    border-top-color:  #526f9b;
+    left: calc(0% - 900px);
+    transform: rotate(90deg);
+  }
+  .Bs-Person::before, .Bs-Person::after {
+    position: absolute;
+    opacity: 0;
+    transition: all 500ms;
+    visibility: hidden;
+  }
+  .Bs-Person:hover{
+    top: -100%;
+  }
+  .Bs-Person:hover{
+    top: 0;
+  }
+  .Bs-Person:hover::before, .Bs-Person:hover::after {
+    opacity: 5;
+    visibility: visible;
+  }
+  .Bs-Person:hover::after {
+    left:50px;
+    top:15px;
+  }
+  .Bs-Person:hover::before {
+    left: 80px;
+  }
+  .Bs-Person:active {
+    transform: translate(2px, 2px);
+  }
+  .threeD-2{
+    z-index: 2;
+    display: flex;
+    text-transform: uppercase;
+    height: 0.0rem;
+    margin: 0px 0px 90px 0px;
+    align-items: center;
+    background-color: transparent;
+    color:  #ffffff;
+    white-space: nowrap;
+    font-size: 3em;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    transition: 0.3s;
+    text-shadow: 1px 1px 0 #A3A3FF, 1px 2px 0 #4949FF, 1px 3px 0 #ff4949, 1px 4px 0 #4949FF,
+    1px 5px 0 #4949FF, 1px 6px 0 #A3A3FF, 1px 7px 0 #ff4949, 1px 8px 0 #4949FF,
+    5px 13px 15px black;
+}
+.threeD-2:hover {
+    transition: 0.9s;
+    transform: scale(1.1)translate(10%, -10%);
+    text-shadow: 1px -1px 0 #A3A3FF, 1px -2px 0 #A3A3FF, 1px -3px 0 #A3A3FF,
+    1px -4px 0 #A3A3FF, 1px -5px 0 #A3A3FF, 1px -6px 0 #A3A3FF, 1px -7px 0 #A3A3FF,
+    1px -8px 0 #A3A3FF, 5px -13px 15px black, 5px -13px 25px #A3A3FF;
+}
+.text-zone{
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  width: 30%;
+  margin: 20rem 0px 0px 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.blast-root{
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-transform: capitalize;
+}
+.blast-root p{
+margin: 20px 0px 0px 0px;
+}
+.tag-cloud{
+  margin: 0px 0px 15rem 0px;
+  display: flex;
+  flex-direction: row;
+}
+.cors{
+  width: 50%;
+  height: 50%;
+  margin: 18rem 0px 0px 20rem;
+}
+#chartdiv{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin: 50rem 0rem 0px 3rem;
+  z-index: 2;
+}
