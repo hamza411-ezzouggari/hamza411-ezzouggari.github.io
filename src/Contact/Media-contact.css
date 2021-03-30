@@ -1836,7 +1836,7 @@
 @media (min-device-width: 1001px) and (max-device-width: 1400px) {
   .Contact {
     margin: -53.2rem 0px 0px 0rem;
-    height: 200%;
+    height: 250%;
     width: 100%;
   }
   .dark-Contact {
@@ -2140,7 +2140,7 @@
   .radix {
     margin: 54em 0px 0px 3.5rem;
     width: 86% !important;
-    height: 45% !important;
+    height: 30% !important;
     border: 3px solid #ff9e9d;
   }
   .map {
