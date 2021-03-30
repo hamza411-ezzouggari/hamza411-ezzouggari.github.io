@@ -1211,6 +1211,42 @@
 
   /*@media ipad*/
   @media (min-device-width: 650px) and (max-device-width: 1000px) {
+    .BsPerson {
+      background-color: transparent !important;
+      color: #fff !important;
+      height: 45px !important;
+      width: 45px !important;
+    }
+    .BsPerson::before {
+      display: none;
+    }
+    .BsPerson::after {
+      display: none;
+    }
+    .BsPerson::before,
+    .BsPerson::after {
+      display: none;
+    }
+    .BsPerson:hover {
+      top: -100%;
+    }
+    .BsPerson:hover {
+      top: 0;
+    }
+    .BsPerson:hover::before,
+    .BsPerson:hover::after {
+      opacity: 5;
+      visibility: visible;
+    }
+    .BsPerson:hover::after {
+      display: none;
+    }
+    .BsPerson:hover::before {
+      display: none;
+    }
+    .BsPerson:active {
+      transform: translate(2px, 2px);
+    }
     .Home {
       position: fixed;
       height: flex;
@@ -1383,39 +1419,6 @@
       margin-bottom: 0.5em;
       text-transform: uppercase;
     }
-    .BsPerson {
-      display: none;
-    }
-    .BsPerson::before {
-      display: none;
-    }
-    .BsPerson::after {
-      display: none;
-    }
-    .BsPerson::before,
-    .BsPerson::after {
-      display: none;
-    }
-    .BsPerson:hover {
-      top: -100%;
-    }
-    .BsPerson:hover {
-      top: 0;
-    }
-    .BsPerson:hover::before,
-    .BsPerson:hover::after {
-      opacity: 5;
-      visibility: visible;
-    }
-    .BsPerson:hover::after {
-      display: none;
-    }
-    .BsPerson:hover::before {
-      display: none;
-    }
-    .BsPerson:active {
-      transform: translate(2px, 2px);
-    }
   }
   /*mini pc*/
   @media (min-device-width: 1001px) and (max-device-width: 1200px) {
@@ -1447,13 +1450,13 @@
       color: white;
     }
     .BsPerson {
-      background-color: #64b4f698 !important;
+      background-color: transparent !important;
       color: white;
       height: 40px !important;
       width: 75% !important;
     }
     .BsPerson2 {
-      background-color: #64b4f698 !important;
+      background-color: transparent !important;
       color: white;
       height: 40px !important;
       width: 70% !important;
